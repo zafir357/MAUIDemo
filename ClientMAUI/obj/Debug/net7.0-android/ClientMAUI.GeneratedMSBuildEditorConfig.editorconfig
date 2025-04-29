@@ -1,0 +1,63 @@
+is_global = true
+build_property.TargetFramework = net7.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = ClientMAUI
+build_property.ProjectDir = C:\Users\Zafir\source\repos\champions-de-la-ligues-des-legendes-master\champions-de-la-ligues-des-legendes\Sources\ClientMAUI\
+
+[C:/Users/Zafir/source/repos/champions-de-la-ligues-des-legendes-master/champions-de-la-ligues-des-legendes/Sources/ClientMAUI/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ClientMAUI.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Zafir/source/repos/champions-de-la-ligues-des-legendes-master/champions-de-la-ligues-des-legendes/Sources/ClientMAUI/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ClientMAUI.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Zafir/source/repos/champions-de-la-ligues-des-legendes-master/champions-de-la-ligues-des-legendes/Sources/ClientMAUI/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ClientMAUI.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Zafir/source/repos/champions-de-la-ligues-des-legendes-master/champions-de-la-ligues-des-legendes/Sources/ClientMAUI/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ClientMAUI.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Zafir/source/repos/champions-de-la-ligues-des-legendes-master/champions-de-la-ligues-des-legendes/Sources/ClientMAUI/Views/Pages/ChampionDetail.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ClientMAUI.Views.Pages.ChampionDetail.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Pages\ChampionDetail.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Pages\ChampionDetail.xaml
+
+[C:/Users/Zafir/source/repos/champions-de-la-ligues-des-legendes-master/champions-de-la-ligues-des-legendes/Sources/ClientMAUI/Views/Pages/ChampionEditPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ClientMAUI.Views.Pages.ChampionEditPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Pages\ChampionEditPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Pages\ChampionEditPage.xaml
+
+[C:/Users/Zafir/source/repos/champions-de-la-ligues-des-legendes-master/champions-de-la-ligues-des-legendes/Sources/ClientMAUI/Views/Pages/ChampionListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ClientMAUI.Views.Pages.ChampionListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Pages\ChampionListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Pages\ChampionListPage.xaml
+
+[C:/Users/Zafir/source/repos/champions-de-la-ligues-des-legendes-master/champions-de-la-ligues-des-legendes/Sources/ClientMAUI/Views/Pages/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ClientMAUI.Views.Pages.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Pages\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Pages\HomePage.xaml

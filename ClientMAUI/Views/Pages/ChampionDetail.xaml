@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClientMAUI.Views.Pages.ChampionDetail"
+             xmlns:converters="clr-namespace:ClientMAUI.Converters"
+             Title="{Binding Name}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Modifier" Clicked="ToolbarItemModifier_Clicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Resources>
+        <converters:Base64ToImageSourceConverter x:Key="Base64ToImageSource"/>
+    </ContentPage.Resources>
+    <ScrollView>
+        <VerticalStackLayout Padding="10">
+            <Image Source="{Binding Path=Image, Converter={StaticResource Base64ToImageSource}}"/>
+            <HorizontalStackLayout>
+                <Image Source="{Binding Path=Icon, Converter={StaticResource Base64ToImageSource}}"
+                       HeightRequest="60"
+                       WidthRequest="60"
+                       Margin="0,10,10,10"/>
+                <Label Text="{Binding Name}" Style="{StaticResource h1}"/>
+            </HorizontalStackLayout>
+            <Label Text="{Binding Bio}"/>
+
+            <Label Text="Caractéristiques" Style="{StaticResource h3}" Padding="0,10,0,0"/>
+            <CollectionView ItemsSource="{Binding Characteristics}" VerticalScrollBarVisibility="Never">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="3"
+                                     HorizontalItemSpacing="10"
+                                     VerticalItemSpacing="10"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Border StrokeThickness="1">
+                            <VerticalStackLayout Padding="10">
+                                <Label Text="{Binding Key}" HorizontalTextAlignment="Center"/>
+                                <Label Text="{Binding Value}" HorizontalTextAlignment="Center"/>
+                            </VerticalStackLayout>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <Label Text="Compétences" Style="{StaticResource h3}" Padding="0,10,0,0"/>
+            <CollectionView ItemsSource="{Binding Skills}" VerticalScrollBarVisibility="Never">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <VerticalStackLayout Padding="0,10">
+                            <Label Text="{Binding Name}" FontAttributes="Bold"/>
+                            <Label Text="{Binding Description}"/>
+                        </VerticalStackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

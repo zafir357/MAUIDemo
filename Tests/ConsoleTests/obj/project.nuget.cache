@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1YzaoB9jkz7x8d2xEDkWft3tKr6NzPMeuOC5RcBXpMIWqUOpNYcHA6rUoNIA9R38spnV+MSK5djctJRsO1jR8Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Zafir\\source\\repos\\champions-de-la-ligues-des-legendes-master\\champions-de-la-ligues-des-legendes\\Sources\\Tests\\ConsoleTests\\ConsoleTests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Zafir\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\Zafir\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
