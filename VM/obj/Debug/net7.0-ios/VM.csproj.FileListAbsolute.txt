@@ -50,3 +50,4 @@ C:\Users\Zafir\source\repos\champions-de-la-ligues-des-legendes-master\champions
 C:\Users\Zafir\source\repos\champions-de-la-ligues-des-legendes-master\champions-de-la-ligues-des-legendes\Sources\VM\obj\Debug\net7.0-ios\refint\VM.dll
 C:\Users\Zafir\source\repos\champions-de-la-ligues-des-legendes-master\champions-de-la-ligues-des-legendes\Sources\VM\obj\Debug\net7.0-ios\VM.pdb
 C:\Users\Zafir\source\repos\champions-de-la-ligues-des-legendes-master\champions-de-la-ligues-des-legendes\Sources\VM\obj\Debug\net7.0-ios\ref\VM.dll
+C:\Users\Zafir\source\repos\champions-de-la-ligues-des-legendes-master\champions-de-la-ligues-des-legendes\Sources\VM\obj\Debug\net7.0-ios\build-signature\signature
