@@ -10,6 +10,7 @@ namespace ClientMAUI.VMApp
 	{
 		public ChampionVM ChampionVM { get; set; }
         public ICommand AddSkillCommand { get; private set; }
+        public ICommand SaveCommand { get; }
         public string SkillName {
             get => _skillName;
             set
@@ -39,7 +40,18 @@ namespace ClientMAUI.VMApp
                     ChampionVM.AddSkill(SkillName);
                     SkillName = "";
                 });
+            SaveCommand = new Command(Save);
         }
-	}
+        private async void Save()
+        {
+            ChampionVM.SaveEdit(); // <— applies edits to domain model
+            await Shell.Current.DisplayAlert("Saved", "Champion updated.", "OK");
+
+            // 3) Revenir à la page précédente (si tu le veux)
+            await Shell.Current.GoToAsync("..");
+            // Optionally navigate back:
+            // Shell.Current.GoToAsync("..");
+        }
+    }
 }
 

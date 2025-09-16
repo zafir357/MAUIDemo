@@ -5,6 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Windows.Input;
 using Model;
 using LolToolkit;
+using Microsoft.Maui.Platform;
 
 namespace VM
 {
@@ -27,6 +28,12 @@ namespace VM
         public string Name
         {
             get => _model.Name;
+            set
+            {
+                if (_model.Name.Equals(value)) return;
+                _model.Name = value;
+                OnPropertyChanged();
+            }
         }
 
         public string Bio
@@ -96,6 +103,25 @@ namespace VM
             Model.AddSkill(s);
             _skillVMs.Add(sVM);
         }
+   // ✅ final Save that applies the edits to the domain model
+    public void SaveEdit()
+    {
+        Model.Bio   = Bio ?? string.Empty;
+            if (!Enum.TryParse<ChampionClass>(Class, true, out var parsed))
+                parsed = ChampionClass.Unknown;
+            Model.Class = parsed;
+            Model.Icon  = Icon;
+
+
+
+        // ---- Sync skills (reset & re-add; simplest) ----
+        foreach (var existing in Model.Skills.ToList())
+            Model.RemoveSkill(existing);
+
+        foreach (var sVM in _skillVMs)
+            Model.AddSkill(new Skill(sVM.Name, sVM.Type) { Description = sVM.Description });
+    }
+
     }
 
 }

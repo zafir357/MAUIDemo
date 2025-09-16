@@ -9,17 +9,12 @@ public class Champion : IEquatable<Champion>
     public string Name
     {
         get => name;
-        private init
+        set
         {
-            if(string.IsNullOrWhiteSpace(value))
-            {
-                name = "Unknown";
-                return;
-            }
-            name = value;
+            name = string.IsNullOrWhiteSpace(value) ? "Unknown" : value;
         }
     }
-    private readonly string name = null!;
+    private string name = null!;
 
     public string Bio
     {

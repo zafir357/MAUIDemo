@@ -286,3 +286,4 @@ C:\Users\Zafir\source\repos\champions-de-la-ligues-des-legendes-master\champions
 C:\Users\Zafir\source\repos\champions-de-la-ligues-des-legendes-master\champions-de-la-ligues-des-legendes\Sources\ClientMAUI\obj\Debug\net7.0-ios\iossimulator-x64\ClientMAUI.pdb
 C:\Users\Zafir\source\repos\champions-de-la-ligues-des-legendes-master\champions-de-la-ligues-des-legendes\Sources\ClientMAUI\obj\Debug\net7.0-ios\iossimulator-x64\ClientMAUI.genruntimeconfig.cache
 C:\Users\Zafir\source\repos\champions-de-la-ligues-des-legendes-master\champions-de-la-ligues-des-legendes\Sources\ClientMAUI\obj\Debug\net7.0-ios\iossimulator-x64\ref\ClientMAUI.dll
+C:\Users\Zafir\source\repos\champions-de-la-ligues-des-legendes-master\champions-de-la-ligues-des-legendes\Sources\ClientMAUI\obj\Debug\net7.0-ios\iossimulator-x64\build-signature\signature

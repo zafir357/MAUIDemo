@@ -18,7 +18,7 @@
             <Editor Text="{Binding ChampionVM.Bio}" Grid.Row="1" Grid.Column="1"/>
 
             <Label Text="Class" Grid.Row="2" Grid.Column="0" VerticalTextAlignment="Center"/>
-            <Editor Text="Classe" Grid.Row="2" Grid.Column="1"/>
+                <Editor Text="Classe" Grid.Row="2" Grid.Column="1" IsEnabled="False"/>
 
             <Label Text="Compétences" Grid.Row="3" Grid.Column="0" VerticalTextAlignment="Center"/>
             <VerticalStackLayout Grid.Row="3" Grid.Column="1">
@@ -38,7 +38,12 @@
                 </Grid>
             </VerticalStackLayout>
         </Grid>
-    </VerticalStackLayout>
+            <Button Text="Save"
+                Command="{Binding SaveCommand}"
+                HorizontalOptions="Center"
+                Margin="0,20,0,0"
+                WidthRequest="120"/>
+        </VerticalStackLayout>
 
     </ScrollView>
 </ContentPage>
