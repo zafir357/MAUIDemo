@@ -9,7 +9,7 @@ Champion list & detail pages
 
 Pagination
 
-Gestion Image sur MAUI
+Image display on MAUI
 
 Edit page with:
 
