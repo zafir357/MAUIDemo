@@ -7,6 +7,8 @@ Features
 
 Champion list & detail pages
 
+Pagination
+
 Edit page with:
 
 Name (editable)
