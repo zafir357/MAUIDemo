@@ -9,6 +9,8 @@ Champion list & detail pages
 
 Pagination
 
+Gestion Image sur MAUI
+
 Edit page with:
 
 Name (editable)
